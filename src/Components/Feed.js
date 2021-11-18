@@ -1,6 +1,7 @@
 import React from 'react'
 import Post from './Post'
 function Feed({posts}) {
+  console.log(posts);
   return (
     <>
       {posts.map(post =>(

@@ -166,6 +166,7 @@ body {
 }
 
 .newPostForm {
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
@@ -178,7 +179,7 @@ body {
 .newPostForm textarea {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
-  min-height: 48px;
+  min-height: 28px;
   font-size: 1rem;
   padding: 0.25rem;
   border-radius: 0.25rem;
@@ -186,9 +187,10 @@ body {
   outline: none;
 }
 
-.newPostForm textarea {
-  height: 100px;
-}
+/* .newPostForm textarea {
+  width: 50%;
+  height: 50px;
+} */
 
 .newPostForm button {
   margin-top: 1rem;

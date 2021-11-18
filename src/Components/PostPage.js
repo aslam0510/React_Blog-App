@@ -17,7 +17,8 @@ function PostPage({ posts, handleDelete }) {
               onClick={() => handleDelete(post.id)}
             >
               Delete Post
-            </button>
+            </button><br/><br/>
+            <h4><Link to="/">Back to home page</Link></h4>
           </>
         )}
         {!post && (
